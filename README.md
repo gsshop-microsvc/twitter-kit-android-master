@@ -1,5 +1,8 @@
 **Twitter will be discontinuing support for Twitter Kit on October 31, 2018. [Read the blog post here](https://blog.twitter.com/developer/en_us/topics/tools/2018/discontinuing-support-for-twitter-kit-sdk.html).**
 
+# What has been changed in this version of Twitter Kit for Android
+Has been updated to build in Android studio 4.1 also has Javascript enabled in WebView, if using the Twitter login WebView lets users create new Twitter accounts in the app.
+
 # Twitter Kit for Android
 
 Twitter Kit is a multi-module gradle project containing several Twitter SDKs including TweetComposer, TwitterCore, and TweetUi. Twitter Kit is designed to make interacting with Twitter seamless and efficient.
@@ -18,20 +21,15 @@ Twitter Kit is a multi-module gradle project containing several Twitter SDKs inc
 * Install Twitter Kit using instructions below.
 * For extensive documentation, please see the [wiki](https://github.com/twitter/twitter-kit-android/wiki).
 
-### Install using Bintray JCenter
+### Install 
 
 Add twitter dependency to your build.gradle:
-```groovy
-
-repositories {
-  jcenter()
-}
 
 dependencies {
-  compile('com.twitter.sdk.android:twitter:3.3.0@aar') {
-    transitive = true
-  }
-}
+    implementation files('/PATH_TO_FILE/twitter-core-release.aar')
+    implementation files('/PATH_TO_FILE/twitter-release.aar')
+    implementation files('/PATH_TO_FILE/tweet-ui-release.aar')
+    implementation files('/PATH_TO_FILE/tweet-composer-release.aar')
 
 ```
 
