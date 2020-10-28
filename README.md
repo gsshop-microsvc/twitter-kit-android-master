@@ -3,7 +3,7 @@
 # What has been changed in this version of Twitter Kit for Android
 Has been updated to build in Android studio 4.1 also has Javascript enabled in WebView, if using the Twitter login WebView lets users create new Twitter accounts in the app.
 
-# Twitter Kit for Android
+## Twitter Kit for Android
 
 Twitter Kit is a multi-module gradle project containing several Twitter SDKs including TweetComposer, TwitterCore, and TweetUi. Twitter Kit is designed to make interacting with Twitter seamless and efficient.
 
@@ -24,7 +24,7 @@ Twitter Kit is a multi-module gradle project containing several Twitter SDKs inc
 ### Install 
 
 Add twitter dependency to your build.gradle:
-
+```groovy
 dependencies {
     implementation files('/PATH_TO_FILE/twitter-core-release.aar')
     implementation files('/PATH_TO_FILE/twitter-release.aar')
