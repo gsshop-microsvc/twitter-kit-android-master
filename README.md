@@ -30,6 +30,7 @@ dependencies {
     implementation files('/PATH_TO_FILE/twitter-release.aar')
     implementation files('/PATH_TO_FILE/tweet-ui-release.aar')
     implementation files('/PATH_TO_FILE/tweet-composer-release.aar')
+}
 
 ```
 
