@@ -1,6 +1,6 @@
 **Twitter will be discontinuing support for Twitter Kit on October 31, 2018. [Read the blog post here](https://blog.twitter.com/developer/en_us/topics/tools/2018/discontinuing-support-for-twitter-kit-sdk.html).**
 
-# My Fork of Twitter Kit What has been changed in this version of Twitter Kit for Android
+# My Fork of Twitter Kit.  What has been changed in this version of Twitter Kit for Android
 Has been updated to build in Android studio 4.1 also has Javascript enabled in WebView, if using the Twitter login WebView lets users create new Twitter accounts in the app.
 
 ## Twitter Kit for Android
